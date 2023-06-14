@@ -18,6 +18,11 @@
                         <span v-else>Nessun tag</span>
                     </span>
                 </p>
+
+
+                <router-link :to="{ name: 'single-project', params: { slug: project.slug } }" class="btn btn-primary"><i
+                        class="fa-solid fa-eye"></i></router-link>
+
             </div>
         </div>
     </div>
